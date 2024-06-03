@@ -185,4 +185,22 @@ Finally, since we have made this as a function with a parameter being the input,
 ```
 return count
 ```
-And thats the completed code! I did see some methods that used repeated subtraction to achieve the same result, however this would be much less efficient than just dividing if numbers get larger.
+And thats the completed code! I did see some methods that used repeated subtraction to achieve the same result, however this would be much less efficient than just dividing once numbers get larger.
+
+# 04.06.24 - Digit Factorials:
+
+### Problem:
+
+The factorial of a number n is the multiplication of all the integers from 1 to n inclusive. Factorials are represented with a ! in maths (no, you cannot use a ! to factorise in your code, ! is instead the NOT operator in code).
+
+For example, \
+3! = 3 x 2 x 1 = 6.\
+5! = 5 x 4 x 3 x 2 x 1 = 120
+
+145 is a 'curious' number because 1! + 4! + 5! = 1 + 24 + 120 = 145.
+
+Find the sum of ALL positive integers where the sum of the factorials of their digits is equal to number itself - AKA the sum of all curious numbers.
+
+
+### Solution:
+Will be released on Tuesday evening
