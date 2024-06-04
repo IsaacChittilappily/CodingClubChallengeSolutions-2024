@@ -1,4 +1,4 @@
-def minCoins(cash):
+def minCoins(cash) -> int:
 
   cash = int(cash.split('.')[0]) * 100 + int(cash.split('.')[1])
   # the above line of code parses the pounds and pence value into only pence

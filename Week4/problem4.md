@@ -10,6 +10,6 @@ For example, \
 
 145 is a 'curious' number because 1! + 4! + 5! = 1 + 24 + 120 = 145.
 
-Find the sum of ALL positive integers where the sum of the factorials of their digits is equal to number itself - AKA the sum of all curious numbers.
+Find the sum of ALL positive integers where the sum of the factorials of their digits is equal to number itself - AKA the sum of all curious numbers. (Don't include the curious numbers 1 or 2 in your final answer since they are not sums).
 
 *Source - Q34 in Project Euler*

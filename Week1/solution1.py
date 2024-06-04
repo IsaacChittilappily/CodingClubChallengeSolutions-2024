@@ -1,4 +1,4 @@
-def allAlpha(string):
+def allAlpha(string: str) -> bool:
   alpha = 'abcdefghijklmnopqrstuvwxyz'
   found = True
   
