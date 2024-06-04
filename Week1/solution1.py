@@ -9,7 +9,7 @@ def allAlpha(string):
   return found
 
 def main():
-  print(allAlpha(input()))
+  print(allAlpha(input('Input a string:\n')))
 
 if __name__ == '__main__':
   main()

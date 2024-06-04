@@ -5,7 +5,7 @@ def isAnagram(str1, str2):
 
 
 def main():
-  print(isAnagram(*input().split(' ')))
+  print(isAnagram(*input('Input two strings separated by a space:\n').split(' ')))
 
 
 if __name__ == '__main__':

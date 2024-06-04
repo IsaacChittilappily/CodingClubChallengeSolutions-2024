@@ -1,6 +1,6 @@
 # Week 4 - Digit Factorials - 04/06/24:
 
-## Problem:
+## Problem - Difficulty 5/10:
 
 The factorial of a number n is the multiplication of all the integers from 1 to n inclusive. Factorials are represented with a ! in maths (no, you cannot use a ! to factorise in your code, ! is instead the NOT operator in code).
 

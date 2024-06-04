@@ -1,6 +1,6 @@
 # Week 2 - Anagram Check - 14/04/24:
 
-## Problem:
+## Problem - Difficulty 3/10:
 Given two strings of any length and with any characters, check if they are anagrams of each other.
 
 ### Case 1:

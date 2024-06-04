@@ -1,6 +1,7 @@
 import sys
 
 with open('config.txt','r') as f:
+  # replace the number in config.txt with the week number
   folder = f.read().strip()
 
 folderPath = './Week' + folder

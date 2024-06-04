@@ -15,7 +15,7 @@ def minCoins(cash):
 
 
 def main():
-  print(minCoins(input('Input some money in pounds and pence: ')))
+  print(minCoins(input('Input some money in pounds and pence:\n')))
 
 if __name__ == '__main__':
   main()
