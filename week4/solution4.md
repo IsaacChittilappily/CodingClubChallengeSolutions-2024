@@ -1,11 +1,11 @@
 # Week 4 - Digit Factorials - 04/06/24:
 ## Solution:
 
-Alright, this week's problem can definitely seem a little tricky, but after some **decomposition** into some logical steps, it becomes easy.
+Alright, this week's problem can definitely seem a little tricky, but after some **decomposition** into logical steps, it becomes easy.
 
-First, we need to make a function to find the factorial of a number. As stated in the problem, you can find the factorial by multiplying all the positive integers up to n together.
+First, we need to make a function to find the factorial of a number. As stated in the problem, you can find the factorial of n by multiplying all the positive integers up to and including n together.
 
-Another way of thinking about this is by saying the factorial of any number is just the factorial of the previous number multiplied by the chosen number. This is a very nice example of where we could use **recursion**.
+Another way of thinking about this is by saying the factorial of any number is just the factorial of the previous number multiplied by the chosen number. This leads us to a very nice example of where we could use **recursion**.
 
 Recursion is the process where a function calls *itself* from within itself. At first glance this might seem like it will just make an infinite loop - but this is why when using recursion, we need to define one or more **base cases**, which are conditions for the recursion to stop.
 
@@ -106,4 +106,4 @@ return sum(factorials[int(x)] for x in str(n)) == n
 ```
 The change is barely noticeable - the factorial function has been replaced with factorials, the dictionary. And the normal brackets have changed to square brackets (because thats how you access items from a dictionary).
 
-Finally, after all of this, we have a nice clean looking solution, written with a low line count, readable, and one that follows good programming practice. 
+Finally, after all of this, we have a nice clean looking solution, written with a low line count, readable, and one that follows good programming practice. That was a long one huh.
