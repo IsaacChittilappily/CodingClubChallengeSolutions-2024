@@ -1,4 +1,4 @@
-# Week 1 - Alphabet Check:
+# Week 1 - Alphabet Check - 07/05/24:
 ## Solution:
 
 The most efficient way to solve this would be just using loops - loop through the whole alphabet and check if the letter is in the string for each one.

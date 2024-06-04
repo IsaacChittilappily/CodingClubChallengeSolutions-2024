@@ -1,4 +1,4 @@
-# Week 3 - Minimum Currency:
+# Week 3 - Minimum Currency - 21/05/24:
 ## Solution:
 
 This was perhaps one of the more confusing problems, but after breaking it down step by step it becomes simple.

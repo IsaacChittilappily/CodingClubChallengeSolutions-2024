@@ -1,4 +1,4 @@
-# Week 1 - Alphabet Check
+# Week 1 - Alphabet Check - 07/05/24:
 ## Problem:
 
 Given a string containing only lowercase english letters (no spaces, punctuation etc), return True if the string contains at least one occurence of every letter in the english alphabet, and False otherwise.

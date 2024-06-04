@@ -1,4 +1,4 @@
-# Week 2 - Anagram Check:
+# Week 2 - Anagram Check - 14/04/24:
 
 ## Problem:
 Given two strings of any length and with any characters, check if they are anagrams of each other.

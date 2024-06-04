@@ -14,4 +14,9 @@ def minCoins(cash):
   return count
 
 
-print(minCoins(input('Input some money in pounds and pence: ')))
+def main():
+  print(minCoins(input('Input some money in pounds and pence: ')))
+
+if __name__ == '__main__':
+  main()
+  
