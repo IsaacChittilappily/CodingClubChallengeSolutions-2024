@@ -1,4 +1,4 @@
-# Test Glossary
+# Glossary
 
 
 ***Base Cases:***\
