@@ -83,7 +83,7 @@ So we can set our upper limit to 2177280
 Now that we have an upper limit, all thats left to do is to loop through integers from 3 to the limit, and check if they are curious or not. We can reuse the **generator** concept from before, as well as the sum function, and the code looks something like this:
 
 ```
-sum(x for x in range(3, 2540160) if isCurious(x))
+sum(x for x in range(3, 2177280) if isCurious(x))
 ```
 
 Now, we could leave it there, but if you test this code, it ends up taking almost a whole minute to run, which is terrible efficiency. So, optimisation is required.
