@@ -10,6 +10,8 @@ def main():
   
   print('This code takes a second to run...')
   print(sum(x for x in range(3, 2540160) if isCurious(x)))
+  
 
 if __name__ == '__main__':
   main()
+
