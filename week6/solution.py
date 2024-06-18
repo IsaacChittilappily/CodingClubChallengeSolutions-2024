@@ -1,0 +1,3 @@
+def moveZeroes(nums: list[int]) -> list[int]:
+  # code goes here#
+  ...
