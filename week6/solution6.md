@@ -27,8 +27,10 @@ for num in nums:
 
 This code works fine, and has O(n) time complexity. However, we can do better. The .remove() method is rather resource intensive (as it needs to search through the whole list to find a 0), so instead, lets first make a new list with all the numbers that are NOT 0, by using list comprehension:
 ```
-noZeroes = [num for num in nums if num != 0]
+noZeroes = [num for num in nums if num]
 ```
+(``` if num ``` is just an efficient way of saying if num != 0, as 0's give a boolean value of False.)
+
 List comprehension is known to be more efficient than basic loops, so this increases our efficiency. Now that we have a list with all the non-zero numbers, we just need to get a list with n zeroes in it, where n is the number of zeros in the original list.
 ```
 zeroes = nums.count(0) * [0]
@@ -44,7 +46,7 @@ return noZeroes + zeroes
 But of course, we can just make this into a one-liner by removing the variables and just returning the result of the operations directly:
 
 ```
-return [num for num in nums if x != 0] + nums.count(0) * [0]
+return [num for num in nums if num] + nums.count(0) * [0]
 ```
 
 And there you have it -  a nice little one line solution.

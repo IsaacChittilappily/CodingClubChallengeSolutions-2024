@@ -1,6 +1,6 @@
 def moveZeroes(nums: list[int]) -> list[int]:
   
-  return [num for num in nums if num != 0] + nums.count(0) * [0]
+  return [num for num in nums if num] + nums.count(0) * [0]
 
 def main():
 
