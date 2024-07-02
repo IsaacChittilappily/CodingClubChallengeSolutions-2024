@@ -1,4 +1,4 @@
-# Week 7 - Sequence Shenanigans - 25/06/23
+# Week 7 - Sequence Shenanigans - 25/06/24
 
 ### Problem 1 - Difficulty 2/10:
 
